@@ -3934,7 +3934,7 @@ section {
   padding-bottom: 147px;
   overflow: visible;
   position: relative;
-  background-position: bottom left !important;
+  background-position: top !important;
 }
 @media only screen and (max-width: 1199px) {
   .inner-banner-section {
@@ -9269,4 +9269,23 @@ div[class*="col"]:nth-of-type(4n + 4) .choose-item::after {
 }
 .blog-widget-thumb .blog-widget-video .waves {
   background: white;
+}
+
+/* /////////////////////////////////////////
+//// TITLE  */
+
+.title-contact{
+  position: relative;
+  padding-bottom: 1rem;
+  display: block;
+}
+
+.title-contact span{
+  position: absolute;
+  height: 2px;
+  background: #000;
+  bottom: 0;
+  left: 0;
+  width: 20%;
+  /* padding-bottom: 1rem; */
 }
