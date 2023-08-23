@@ -618,6 +618,8 @@ if (contactForm) {
 
       },
       success: function (response) {
+        var popup = document.getElementById("success-popup");
+        popup.style.display = "flex";
         $("#contact-form")[0].reset()
         //window.location.href="https://google.com"
       },
@@ -633,3 +635,9 @@ if (contactForm) {
   })
 
 }
+
+
+document.getElementById("close-popup").addEventListener("click", function () {
+  var popup = document.getElementById("success-popup");
+  popup.style.display = "none";
+});

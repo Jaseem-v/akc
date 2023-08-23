@@ -6,9 +6,11 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="AKC Karate Group of Martial Arts - Empowering Excellence since 2013. Join us for top-tier traditional and modernized Shotokan Karate training in the UAE.">
-    <meta name="keywords" content="Karate Group, Martial Arts, Shotokan Karate, Chief Instructor, Black Belt, Empowerment, Excellence, Discipline, Coordination, Focus, Self-Esteem, Leadership, Self-Defense, UAE, World Shotokan Karate Federation, UAE Karate Federation, Fitness Goals, Professional Instructors, National Competitions, International Competitions">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="AKC Karate Group of Martial Arts - Empowering Excellence since 2013. Join us for top-tier traditional and modernized Shotokan Karate training in the UAE.">
+    <meta name="keywords"
+        content="Karate Group, Martial Arts, Shotokan Karate, Chief Instructor, Black Belt, Empowerment, Excellence, Discipline, Coordination, Focus, Self-Esteem, Leadership, Self-Defense, UAE, World Shotokan Karate Federation, UAE Karate Federation, Fitness Goals, Professional Instructors, National Competitions, International Competitions">
     <meta name="author" content="AKC Karate Group">
     <title>AKC Karate Group of Martial Arts - Empowering Excellence since 2013</title>
 
@@ -46,7 +48,15 @@
 <body>
 
 
-
+    <div class="popup" id="success-popup">
+        <div class="popup-content">
+            <!-- <div class="popup-icon">
+                <img src="success-icon.png" alt="Success Tick">
+            </div> -->
+            <p>Form submitted successfully. We will contact you soon.</p>
+            <button id="close-popup">Close</button>
+        </div>
+    </div>
 
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -79,7 +89,7 @@
                                         <a href="#0">SHEDULE</a>
 
                                     </li> -->
-                                      <li class="d-block d-lg-none">
+                                    <li class="d-block d-lg-none">
                                         <a href="register.html">REGISTER</a>
 
                                     </li>
@@ -106,8 +116,7 @@
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     Start Banner
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="banner-section banner-section-two inner-banner-section bg-overlay-red bg_img breadcrumb-img"
-        >
+    <section class="banner-section banner-section-two inner-banner-section bg-overlay-red bg_img breadcrumb-img">
         <div class="section-logo-text">
             <span class="title">AKC</span>
         </div>
@@ -159,24 +168,25 @@
                                 </div>
                             </div>
                         </div>
-                        <form class="account-widget-form">
+                        <form class="account-widget-form" id="contact-form"
+                            action="https://script.google.com/macros/s/AKfycbwJCoU5enQ5OURRisRX6oVtVm5pvJr8xovRFdGRkX5RTEyygihUugJTrLGJotZ-xGGyWQ/exec">
                             <div class="row justify-content-center mb-20-none">
                                 <div class="col-xl-6 col-lg-6 form-group">
                                     <label>Enter Name</label>
-                                    <input type="text" class="form--control" placeholder="Your Name">
+                                    <input name="name" type="text" class="form--control" placeholder="Your Name">
                                 </div>
                                 <div class="col-xl-6 col-lg-6 form-group">
                                     <label>Email Adress</label>
-                                    <input type="email" class="form--control" placeholder="Your Email">
+                                    <input name="email" type="email" class="form--control" placeholder="Your Email">
                                 </div>
                                 <div class="col-xl-6 col-lg-6 form-group">
                                     <label>Phone Number</label>
-                                    <input type="text" class="form--control" placeholder="Your Number">
+                                    <input name="number" type="text" class="form--control" placeholder="Your Number">
                                 </div>
                                 <div class="col-xl-6 col-lg-6 form-group">
                                     <label>Select Branch </label>
                                     <div class="account-widget-select">
-                                        <select class="form--control">
+                                        <select name="branch" class="form--control">
                                             <option value="1">Abudhabi - Electra</option>
                                             <option value="2">Musaffah Shabia 9</option>
                                             <option value="3">Musaffah Shabia 12</option>
@@ -188,7 +198,7 @@
                                     <label>Which Martial Arts Are You Looking For?
                                     </label>
                                     <div class="account-widget-select">
-                                        <select class="form--control">
+                                        <select name="martial_arts" class="form--control">
                                             <option value="Kids Karate">Kids Karate</option>
                                             <option value="Kids Taekwondo">Kids Taekwondo</option>
                                             <option value="Kids Kick Boxing">Kids Kick Boxing</option>
@@ -208,7 +218,7 @@
                                     <label>How Many Days In A Week You Required?
                                     </label>
                                     <div class="account-widget-select">
-                                        <select class="form--control">
+                                        <select name="days" class="form--control">
                                             <option value="1">1</option>
                                             <option value="2">2</option>
                                             <option value="3">3</option>
@@ -224,7 +234,7 @@
 
                                     </label>
                                     <div class="account-widget-select">
-                                        <select class="form--control">
+                                        <select name="time" class="form--control">
                                             <option value="6am">6 am</option>
                                             <option value="7am">7 am</option>
                                             <option value="8am">8 am</option>
@@ -253,7 +263,7 @@
 
                                 <div class="col-xl-6 col-lg-6 form-group">
                                     <label>What is your kids Age ?</label>
-                                    <input type="text" class="form--control" placeholder="Your Kids Age">
+                                    <input name="age" type="text" class="form--control" placeholder="Your Kids Age">
                                 </div>
 
                                 <div class="col-xl-6 col-lg-6 form-group">
@@ -262,7 +272,7 @@
 
                                     </label>
                                     <div class="account-widget-select">
-                                        <select class="form--control">
+                                        <select name="package" class="form--control">
                                             <option value="1 Month">1 Month</option>
                                             <option value="3 Months">3 Months</option>
                                             <option value="6 Months">6 Months</option>
@@ -275,7 +285,7 @@
                                     <label>Do You Have Sibling To Join With You?
                                     </label>
                                     <div class="account-widget-select">
-                                        <select class="form--control">
+                                        <select name="sibilings" class="form--control">
                                             <option value="Yes">Yes</option>
                                             <option value="No">No</option>
                                             <option value="Maybe">Maybe</option>
@@ -289,11 +299,19 @@
 
                                 <div class="col-xl-12 form-group">
                                     <label>Write Message</label>
-                                    <textarea class="form--control" placeholder="Notes (If Any)"></textarea>
+                                    <textarea name="message" class="form--control" placeholder="Notes (If Any)"></textarea>
                                 </div>
                                 <div class="col-xl-12 form-group text-center">
-                                    <button type="submit" class="btn--base mt-20">Submit Now <i
+                                    <button type="submit" class="btn--base mt-20" id="form-btn">Submit Now <i
                                             class="fas fa-arrow-right ml-2"></i></button>
+
+                                    <div class="form__loading my-5">
+                                        <div class="loaderr d-none">
+                                            <div class="scanner">
+                                                <h1>Loading...</h1>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </form>
@@ -356,15 +374,16 @@
                         <h4 class="title">Follow us</h4>
                         <ul class="footer-social">
                             <li>
-                                <a href="https://www.facebook.com/p/Asian-Karate-Club-Abudhabi-100054573094297/" target="_blank">
+                                <a href="https://www.facebook.com/p/Asian-Karate-Club-Abudhabi-100054573094297/"
+                                    target="_blank">
                                     <div class="footer_li-icon">
                                         <i class="fab fa-facebook-f"></i>
                                     </div>
                                     Facebook
                                 </a>
                             </li>
-                            <li><a
-                                    href="https://www.instagram.com/asian_karate_club_abhudabi_/?igshid=MmIzYWVlNDQ5Yg%3D%3D" target="_blank">
+                            <li><a href="https://www.instagram.com/asian_karate_club_abhudabi_/?igshid=MmIzYWVlNDQ5Yg%3D%3D"
+                                    target="_blank">
                                     <div class="footer_li-icon">
                                         <i class="fab fa-instagram"></i>
                                     </div>
@@ -395,7 +414,8 @@
             <div class="row justify-content-center">
                 <div class="col-xl-12 text-center">
                     <div class="copyright-area">
-                        <p>Copyright 2022 AKC. made with 💗</p>
+                        <p>Copyright 2022 AKC. made by <a target="_blank" href="https://ddotsmedia.com">DDots Media</a>
+                        </p>
                     </div>
                 </div>
             </div>

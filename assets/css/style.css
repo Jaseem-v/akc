@@ -10532,3 +10532,45 @@ div[class*="col"]:nth-of-type(4n + 4) .choose-item::after {
   position: relative;
   width: 20%;
 }
+
+.form__loading h1 {
+  font-size: 30px;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+/* Styles for the popup content */
+.popup-content {
+  background-color: white;
+  padding: 40px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Styles for the success icon */
+.popup-icon img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+/* Styles for the close button */
+#close-popup {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
