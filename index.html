@@ -114,8 +114,7 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="banner-section banner-section-two">
-                        <div class="banner-bg bg-overlay-black bg_img home-bg-1"
-                            >
+                        <div class="banner-bg bg-overlay-black bg_img home-bg-1">
                         </div>
                         <div class="container-fluid">
                             <div class="row justify-content-center align-items-end mb-30-none">
@@ -138,8 +137,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="banner-section banner-section-two">
-                        <div class="banner-bg bg-overlay-black bg_img home-bg-2"
-                            >
+                        <div class="banner-bg bg-overlay-black bg_img home-bg-2">
                         </div>
                         <div class="container-fluid">
                             <div class="row justify-content-center align-items-end mb-30-none">
@@ -785,33 +783,49 @@
                         <div class="contact-social-area">
                             <span>FOLLOW US -</span>
                             <ul class="contact-social">
-                                <li><a href="#0"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#0"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#0"><i class="fab fa-google-plus-g"></i></a></li>
-                                <li><a href="#0"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://www.facebook.com/p/Asian-Karate-Club-Abudhabi-100054573094297/"><i
+                                            class="fab fa-facebook-f"></i></a></li>
+                                <!-- <li><a href="#0"><i class="fab fa-twitter"></i></a></li> -->
+                                <!-- <li><a href="#0"><i class="fab fa-google-plus-g"></i></a></li> -->
+                                <li><a
+                                        href="https://www.instagram.com/asian_karate_club_abhudabi_/?igshid=MmIzYWVlNDQ5Yg%3D%3D"><i
+                                            class="fab fa-instagram"></i></a></li>
+                                <li><a
+                                        href="https://wa.me/+9710508928567"><i
+                                            class="fab fa-whatsapp"></i></a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 mb-60">
                     <div class="account-widget-form-area">
-                        <form class="account-widget-form">
+                        <form class="account-widget-form" id="contact-form"
+                            action="https://script.google.com/macros/s/AKfycbxxWvjMG_C6vT7ix8ACMJRBaLD8AGjLxZFjcZy08d1CsDwCi15zLD5L-yJmzuwx0vM5lw/exec">
                             <div class="row justify-content-center mb-25-none">
                                 <div class="col-xl-12 form-group">
-                                    <input type="text" class="form--control" placeholder="Your Name*">
+                                    <input name="name" type="text" class="form--control" placeholder="Your Name*">
                                 </div>
                                 <div class="col-xl-12 form-group">
-                                    <input type="email" class="form--control" placeholder="Your Email*">
+                                    <input name="email" type="email" class="form--control" placeholder="Your Email*">
                                 </div>
                                 <div class="col-xl-12 form-group">
-                                    <input type="text" class="form--control" placeholder="Your Phone*">
+                                    <input name="number" type="text" class="form--control" placeholder="Your Phone*">
                                 </div>
                                 <div class="col-xl-12 form-group">
-                                    <textarea class="form--control" placeholder="Your Message*"></textarea>
+                                    <textarea name="message" class="form--control"
+                                        placeholder="Your Message*"></textarea>
                                 </div>
                                 <div class="col-xl-12 form-group">
-                                    <button type="submit" class="btn--base">Send Now <i
+                                    <button type="submit" class="btn--base" id="form-btn">Send Now <i
                                             class="fas fa-arrow-right ml-2"></i></button>
+
+                                    <div class="form__loading my-5">
+                                        <div class="loaderr d-none">
+                                            <div class="scanner">
+                                                <h1>Loading...</h1>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </form>
@@ -872,29 +886,30 @@ End Account widget
                         <h4 class="title">Follow us</h4>
                         <ul class="footer-social">
                             <li>
-                                <a href="#0">
+                                <a href="https://www.facebook.com/p/Asian-Karate-Club-Abudhabi-100054573094297/" target="_blank">
                                     <div class="footer_li-icon">
                                         <i class="fab fa-facebook-f"></i>
                                     </div>
                                     Facebook
                                 </a>
                             </li>
-                            <li><a href="#0">
+                            <li><a
+                                    href="https://www.instagram.com/asian_karate_club_abhudabi_/?igshid=MmIzYWVlNDQ5Yg%3D%3D" target="_blank">
                                     <div class="footer_li-icon">
                                         <i class="fab fa-instagram"></i>
                                     </div>
                                     Instagram
                                 </a></li>
-                            <li>
+                            <!-- <li>
                                 <a href="#0">
                                     <div class="footer_li-icon">
                                         <i class="fab fa-twitter"></i>
                                     </div>
                                     Twitter
                                 </a>
-                            </li>
+                            </li> -->
                             <li>
-                                <a href="#0">
+                                <a href="https://wa.me/+9710508928567" target="_blank">
                                     <div class="footer_li-icon">
                                         <i class="fab fa-whatsapp"></i>
                                     </div>
